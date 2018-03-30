@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<style>
+    body {margin: 0%}
+    .container{
+        display: flex;
+        flex-direction: column; 
+    }
+    header {
+        border-bottom: 1px solid gray;
+        padding: 20px;
+        text-align: center;
+    }
+    footer{
+        border-top: 1px solid gray;
+        padding: 20px;
+        text-align: center;
+    }
+    .content{
+        display: flex;
+    }
+    .content nav {
+        border-right: 1px solid gray;
+    }
+    .content main{
+        flex-grow: 1;
+    }
+    nav {
+        flex-basis: 259px;
+    }
+    nav,main{
+        padding: 10px;
+    }
+
+</style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>BLOG</h1>
+    </header>
+    <section class="content">
+        <nav>
+            <ul>
+                <li>이름 : 김아서</li>
+                <li>나이 : 19</li>
+                <li>출생지: ??? </li>
+            </ul>
+        </nav>
+        <main>
+            다빈이는 엄마가없습니다.
+        </main>
+        
+    </section>
+    <footer>
+        <a>mail : arthur09081@gmail.com</a>
+    </footer>
+</div>
+</body>
+</html>
